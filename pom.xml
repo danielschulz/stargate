@@ -13,7 +13,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.scm.id>github</project.scm.id>
     <doclint>none</doclint>
-    <driver.version>4.9.0</driver.version>
+    <driver.version>4.11.0</driver.version>
     <xml-format.skip>true</xml-format.skip>
     <dropwizard.version>2.0.12</dropwizard.version>
     <!--
