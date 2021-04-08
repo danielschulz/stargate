@@ -123,7 +123,7 @@
     <dependency>
       <groupId>com.google.auto.factory</groupId>
       <artifactId>auto-factory</artifactId>
-      <version>1.0-beta7</version>
+      <version>1.0</version>
       <exclusions>
         <exclusion>
           <groupId>com.google.guava</groupId>
@@ -270,12 +270,12 @@
               <tasks>
                 <!-- Remove root package classes -->
                 <delete>
-                  <fileset dir="${project.build.directory}/sjk-core/" includes="*.class" />
+                  <fileset dir="${project.build.directory}/sjk-core/" includes="*.class"/>
                 </delete>
                 <jar destfile="${project.build.directory}/classes/sjk-core-0.14.jar">
-                  <fileset dir="${project.build.directory}/sjk-core" />
+                  <fileset dir="${project.build.directory}/sjk-core"/>
                 </jar>
-                <delete dir="${project.build.directory}/sjk-core" />
+                <delete dir="${project.build.directory}/sjk-core"/>
               </tasks>
             </configuration>
           </execution>
@@ -289,12 +289,12 @@
               <tasks>
                 <!-- Remove root package classes -->
                 <delete>
-                  <fileset dir="${project.build.directory}/dnsjava/" includes="*.class" />
+                  <fileset dir="${project.build.directory}/dnsjava/" includes="*.class"/>
                 </delete>
                 <jar destfile="${project.build.directory}/classes/dnsjava-2.1.8.jar">
-                  <fileset dir="${project.build.directory}/dnsjava" />
+                  <fileset dir="${project.build.directory}/dnsjava"/>
                 </jar>
-                <delete dir="${project.build.directory}/dnsjava" />
+                <delete dir="${project.build.directory}/dnsjava"/>
               </tasks>
             </configuration>
           </execution>
