@@ -15,12 +15,12 @@
     <doclint>none</doclint>
     <driver.version>4.9.0</driver.version>
     <xml-format.skip>true</xml-format.skip>
-    <dropwizard.version>2.0.12</dropwizard.version>
+    <dropwizard.version>3.0.2</dropwizard.version>
     <!--
       Note that this is currently aligned with the Jetty version that DropWizard transitively depends on.
       It's probably a good idea to keep the two versions in sync.
     -->
-    <jetty.version>9.4.30.v20200611</jetty.version>
+    <jetty.version>9.4.53.v20231009</jetty.version>
     <slf4j.version>1.7.30</slf4j.version>
     <logback.version>1.2.3</logback.version>
     <junit.version>5.7.0</junit.version>
