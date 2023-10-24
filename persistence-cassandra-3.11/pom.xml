@@ -60,7 +60,7 @@
     <dependency>
       <groupId>io.dropwizard.metrics</groupId>
       <artifactId>metrics-graphite</artifactId>
-      <version>4.1.2</version>
+      <version>4.2.20</version>
     </dependency>
     <dependency>
       <groupId>com.github.akarnokd</groupId>
@@ -178,12 +178,12 @@
               <tasks>
                 <!-- Remove root package classes -->
                 <delete>
-                  <fileset dir="${project.build.directory}/sjk-core/" includes="*.class" />
+                  <fileset dir="${project.build.directory}/sjk-core/" includes="*.class"/>
                 </delete>
                 <jar destfile="${project.build.directory}/classes/sjk-core-0.14.jar">
-                  <fileset dir="${project.build.directory}/sjk-core" />
+                  <fileset dir="${project.build.directory}/sjk-core"/>
                 </jar>
-                <delete dir="${project.build.directory}/sjk-core" />
+                <delete dir="${project.build.directory}/sjk-core"/>
               </tasks>
             </configuration>
           </execution>
