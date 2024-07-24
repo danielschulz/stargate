@@ -107,7 +107,7 @@
     <dependency>
       <groupId>dnsjava</groupId>
       <artifactId>dnsjava</artifactId>
-      <version>2.1.8</version>
+      <version>3.6.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -270,12 +270,12 @@
               <tasks>
                 <!-- Remove root package classes -->
                 <delete>
-                  <fileset dir="${project.build.directory}/sjk-core/" includes="*.class" />
+                  <fileset dir="${project.build.directory}/sjk-core/" includes="*.class"/>
                 </delete>
                 <jar destfile="${project.build.directory}/classes/sjk-core-0.14.jar">
-                  <fileset dir="${project.build.directory}/sjk-core" />
+                  <fileset dir="${project.build.directory}/sjk-core"/>
                 </jar>
-                <delete dir="${project.build.directory}/sjk-core" />
+                <delete dir="${project.build.directory}/sjk-core"/>
               </tasks>
             </configuration>
           </execution>
@@ -289,12 +289,12 @@
               <tasks>
                 <!-- Remove root package classes -->
                 <delete>
-                  <fileset dir="${project.build.directory}/dnsjava/" includes="*.class" />
+                  <fileset dir="${project.build.directory}/dnsjava/" includes="*.class"/>
                 </delete>
                 <jar destfile="${project.build.directory}/classes/dnsjava-2.1.8.jar">
-                  <fileset dir="${project.build.directory}/dnsjava" />
+                  <fileset dir="${project.build.directory}/dnsjava"/>
                 </jar>
-                <delete dir="${project.build.directory}/dnsjava" />
+                <delete dir="${project.build.directory}/dnsjava"/>
               </tasks>
             </configuration>
           </execution>
