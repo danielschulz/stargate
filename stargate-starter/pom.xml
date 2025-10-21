@@ -10,7 +10,7 @@
   <groupId>io.stargate.starter</groupId>
   <artifactId>stargate-starter</artifactId>
   <properties>
-    <airline.version>2.7.0</airline.version>
+    <airline.version>3.2.0</airline.version>
   </properties>
   <dependencies>
     <dependency>
