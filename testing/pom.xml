@@ -163,7 +163,7 @@
     <dependency>
       <groupId>org.lz4</groupId>
       <artifactId>lz4-java</artifactId>
-      <version>1.7.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>org.xerial.snappy</groupId>
@@ -315,7 +315,7 @@
             </goals>
             <configuration>
               <includes>
-                <include />
+                <include/>
               </includes>
               <dataFile>${code.coverage.overall.data.folder}/aggregate.exec</dataFile>
               <outputDirectory>${code.coverage.overall.data.folder}/jacoco</outputDirectory>
